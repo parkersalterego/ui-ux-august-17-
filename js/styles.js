@@ -4,6 +4,7 @@ var barChart = document.getElementById('bar-chart');
 var envelope = document.getElementById('envelope');
 var circle = document.getElementById('circle');
 var navWindow = document.getElementById('nav-window');
+var alterEgoDesigns = document.getElementById('alter-ego-designs');
 
 home.addEventListener('click', function () {
     this.classList.add('slide-fade-right');
@@ -12,6 +13,7 @@ home.addEventListener('click', function () {
     envelope.classList.add('icon-fade-out');
     circle.classList.add('circle-fade-out');
     navWindow.classList.add('full-screen');
+    alterEgoDesigns.classList.add('icon-fade-out');
 });
 
 bars.addEventListener('click', function () {
@@ -21,6 +23,7 @@ bars.addEventListener('click', function () {
     envelope.classList.add('icon-fade-out');
     circle.classList.add('circle-fade-out');
     navWindow.classList.add('full-screen');
+    alterEgoDesigns.classList.add('icon-fade-out');
 });
 
 barChart.addEventListener('click', function () {
@@ -30,6 +33,7 @@ barChart.addEventListener('click', function () {
     envelope.classList.add('icon-fade-out');
     circle.classList.add('circle-fade-out');
     navWindow.classList.add('full-screen');
+    alterEgoDesigns.classList.add('icon-fade-out');
 });
 
 envelope.addEventListener('click', function () {
@@ -39,4 +43,5 @@ envelope.addEventListener('click', function () {
     barChart.classList.add('icon-fade-out');
     circle.classList.add('circle-fade-out');
     navWindow.classList.add('full-screen');
+    alterEgoDesigns.classList.add('icon-fade-out');
 });

@@ -1,3 +1,7 @@
-@import "vars.scss"; 
+@import "vars.scss";
 @import "content.scss";
 @import "universal.scss";
+@font-face {
+  font-family:'pink-floyd';
+  src: url('../fonts/pinkfloyd.ttf');
+}

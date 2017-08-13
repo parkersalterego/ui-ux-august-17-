@@ -4,7 +4,7 @@ html, body {
   margin:0px;
   padding:0px;
   overflow:hidden;
-  background-color:#000000;
+  background-color:#e6e6e3;
 }
 
 // --------------------------------------
@@ -55,16 +55,8 @@ html, body {
 
 // ----------------------------------------
 // fonts
-.beyond-wonderland{
-  font-family:'beyondwonderland',cursive;
-}
-
-.bungee {
-  font-family:'Bungee', monospace;
-}
-
-.permanent-marker {
-  font-family:'Permanent Marker', cursive;
+.pink-floyd {
+  font-family:'pink-floyd', 'cursive';
 }
 // ------------------------------------------
 // font size
@@ -211,4 +203,10 @@ html, body {
 
 .attatchment-fixed {
   background-attachment: fixed;
+}
+
+// ---------------------------------------------
+//  visibility
+.hidden{
+  visibility:hidden;
 }
